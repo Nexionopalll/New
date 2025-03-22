@@ -12,7 +12,7 @@ import zipfile
 from typing import List, Dict
 
 # Load bot token from environment variable or hardcode it
-BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '7099053793:AAGcbJDw99PJntP5sZNioWfUYZusyJ-Q8uQ')
+BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', '7613449197:AAHvZm1XjV7og_dVFWD2topgWKeabzFeeU4')
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # Admin user IDs
